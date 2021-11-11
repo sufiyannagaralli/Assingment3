@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML INPUT ELEMENTS</title>
+</head>
+<style>
+	#myDiv{
+		border : thick solid gray;
+		width: 800px;
+		margin-top: 40px;
+		margin-left: 2px;
+		margin-bottom: 4px;
+		background-color: lightgrey;
+	}
+</style>
+
+<body>
+	<div id="myDiv">
+		<h1 style="text-align: center;">Application Form For Licence </h1>
+	<form action="insert.java">
+		<label>Firstname : </label>
+		<input type="text" name="name"><br><br>
+		<label>Lastname: </label>
+		<input type="text" name="Surname"><br><br>
+
+		<label>Email: </label>
+		<input type="email" name="email"><br><br>
+		<label>Mobile number: </label>
+		<input type="number" name="number"><br><br>
+
+		<label>Address: </label>
+		<textarea name="address"></textarea>
+		<br>
+		<br>
+		<label> Pin Code: </label>
+		<input type="number" name="number"><br><br>
+
+
+		<label>Gender: </label>
+		<form >
+			<label>male</label>
+
+			<input type="checkbox"  name="name" >
+			<label>female</label>
+			<input type="checkbox"  name="name" >
+			
+		</form>
+		<br>
+
+		<label>Choose City: </label>
+		<form >
+			<input type="Radio" id="Pune" name="name" value="Pune">
+			<label>Bijapur</label>
+			<input type="Radio" id="Sangli" name="name" value="Sangli">
+			<label>Bagalkot</label>
+			<input type="Radio" id="Bijapur" name="name" value="Bijapur">
+			<label>Mysore</label>
+			<input type="Radio" id="Miraj" name="name" value="Miraj">
+			<label>Hubli</label><br><br>
+		</form><br><br>
+
+		<label>Add Date: </label>
+		<input type="Date" name="name">
+
+		<label> Add Time: </label>
+		<input type="Time" name="name"><br><br>
+
+		<label> Vehicle Type </label>
+		<select>
+			<option> --Select-- </option>
+			<option> Two Wheeler </option>
+			<option> Four Wheeler </option>
+			
+		</select><br><br>
+
+		<label>Select County</label>
+		<select>
+			<option> --Select-- </option>
+			<option> Australia </option>
+			<option> Belgium </option>
+			<option> China </option>
+			<option> Germany </option>
+			<option> India </option>
+		</select>
+		<br><br>
+
+		<label>Educational Qualification</label>
+		<select>
+		<option> --Select-- </option> 
+			<option> Matriculation </option>
+			<option> P.U.C </option>
+			<option> Bachelors Degree </option>
+			<option> Post Graduate </option>
+			<option> Phd </option>
+		</select>
+		<br><br> 
+		<input type="checkbox" name="name">
+		<label>Agree with all the terms & conditions</label><br>
+		<br>
+
+		<button>Submit</button><br><br>
+
+
+		<label>Not sucessfully submited</label>
+		<button>reset</button>
+	</div>
+</form>
+
+</body>
+</html>
